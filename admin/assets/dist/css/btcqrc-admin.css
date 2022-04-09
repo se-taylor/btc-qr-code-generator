@@ -1,0 +1,11 @@
+.btcqrc-admin-wrapper .btcqrc-logo,
+.btcqrc-admin-wrapper .btcqrc-admin-title h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.btcqrc-admin-wrapper #btcqrc-indicator {
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "se-taylor/btc-qr-code",
+  "type": "wordpress-plugin",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "S.E. Taylor",
+      "email": "scott.taylor@pm.me"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "constants.php",
+      "admin/ajax.php",
+      "includes/options.php",
+      "includes/qr.php",
+      "includes/functions.php",
+      "includes/shortcodes.php"
+    ],
+    "classmap": [
+      "admin",
+      "includes"
+    ]
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}
